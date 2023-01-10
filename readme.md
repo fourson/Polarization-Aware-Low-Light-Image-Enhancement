@@ -44,6 +44,10 @@ Since the file format we use is `.npy`, we provide scrips for visualization:
 * use `notebooks/visualize_S1_S2.py` to visualize S1 or S2
 
 ## How to use our PLIE dataset
+* About the PLIE dataset
+  * The first open-source dataset for polarized low-light image enhancement
+  * Containing pairwise polarized low- and normal-light images
+  * Details can be found in the supplementary materials
 * We provide the [raw images](https://drive.google.com/drive/folders/1pKASjA0fQEIRwJVCGMokt3g_jOpcqOru?usp=sharing) captured by a Lucid Vision Phoenix polarization camera, including two folders:
   * `for_train`: containing the raw images used for training
   * `for_test`: containing the raw images used for testing
