@@ -20,6 +20,7 @@ Polarization-based vision algorithms have found uses in various applications sin
 
 ## Pre-trained models
 * We provide the [pre-trained models](https://drive.google.com/drive/folders/1tL9wUvz-ZBOfnQeVfFycty8L3PG9tiKT?usp=sharing) for inference
+* Run `mkdir checkpoint` first
 * Please put the downloaded files (`Ours.pth` and `Ours_gray.pth`) into the `checkpoint` folder
 
 ## Inference
