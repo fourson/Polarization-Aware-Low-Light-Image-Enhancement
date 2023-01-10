@@ -51,6 +51,7 @@ Since the file format we use is `.npy`, we provide scrips for visualization:
 * We provide the [raw images](https://drive.google.com/drive/folders/1pKASjA0fQEIRwJVCGMokt3g_jOpcqOru?usp=sharing) captured by a Lucid Vision Phoenix polarization camera, including two folders:
   * `for_train`: containing the raw images used for training
   * `for_test`: containing the raw images used for testing
+* Run `mkdir -p raw_images data/{test,train}` first
 * Please put the downloaded folders (`for_train` and `for_test`) into the `raw_images` folder
 * After downloading, you can use our scripts to preprocess them for obtaining the dataset:
   * For obtaining the dataset for testing:
