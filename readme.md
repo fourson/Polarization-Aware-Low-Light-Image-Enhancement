@@ -78,5 +78,13 @@ Note that all config files (`config/*.json`) and the learning rate schedule func
 ## Citation
 If you find this work helpful to your research, please cite:
 ```
-coming soon
+@inproceedings{zhou2023polarization,
+  title={Polarization-Aware Low-Light Image Enhancement},
+  author={Zhou, Chu and Teng, Minggui and Lyu, Youwei and Li, Si and Xu, Chao and Shi, Boxin},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={3},
+  pages={3742--3750},
+  year={2023}
+}
 ```
