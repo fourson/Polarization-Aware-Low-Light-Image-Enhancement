@@ -3,7 +3,7 @@
 By [Chu Zhou](https://fourson.github.io/), Minggui Teng, Youwei Lyu, Si Li, Chao Xu, [Boxin Shi](http://ci.idm.pku.edu.cn/)
 ![Network](Network.png)
 
-[PDF](https://ojs.aaai.org/index.php/AAAI/article/download/25486/25258) | [SUPP](http://camera.pku.edu.cn/Zhou_AAAI23.pdf)
+[PDF](https://ojs.aaai.org/index.php/AAAI/article/download/25486/25258) | [SUPP](https://fourson.github.io/assets/pdf/AAAI2023_supp.pdf)
 
 ## Abstract
 Polarization-based vision algorithms have found uses in various applications since polarization provides additional physical constraints. However, in low-light conditions, their performance would be severely degenerated since the captured polarized images could be noisy, leading to noticeable degradation in the degree of polarization (DoP) and the angle of polarization (AoP). Existing low-light image enhancement methods cannot handle the polarized images well since they operate in the intensity domain, without effectively exploiting the information provided by polarization. In this paper, we propose a Stokes-domain enhancement pipeline along with a dual-branch neural network to handle the problem in a polarization-aware manner. Two application scenarios (reflection removal and shape from polarization) are presented to show how our enhancement can improve their results.
