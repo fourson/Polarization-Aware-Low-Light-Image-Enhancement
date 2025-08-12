@@ -44,6 +44,21 @@ Since the file format we use is `.npy`, we provide scrips for visualization:
 * use `notebooks/visualize_S0.py` to visualize S0
 * use `notebooks/visualize_S1_S2.py` to visualize S1 or S2
 
+## About the metrics
+* To align with previous works, we compute PSNR/SSIM following these steps:
+  * For S0 (in the range of [0, 2])
+    * Divide it by 2 to normalize its values to [0, 1]
+    * Compute PSNR/SSIM
+  * For DoP (in the range of [0, 1])
+    * Average three color channels into a single average channel
+    * Copy the average channel back to three channel
+    * Compute PSNR/SSIM
+  * For AoP (in the range of [0, pi])
+    * Divide it by pi to normalize its values to [0, 1]
+    * Average three color channels into a single average channel
+    * Copy the average channel back to three channel
+    * Compute PSNR/SSIM
+
 ## How to use our PLIE dataset
 * About the PLIE dataset
   * The first open-source dataset for polarized low-light image enhancement
